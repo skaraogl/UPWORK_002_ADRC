@@ -1,0 +1,10 @@
+%% SIMULATE MODEL
+model = 'PTC_IM.slx';
+% Parameters
+T_L = 0;
+n_ref = 2772;
+omega_r_ref = 2*pi*n_ref;
+
+
+sim = out(model);
+

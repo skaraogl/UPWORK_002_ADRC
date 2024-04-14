@@ -10,7 +10,6 @@
  J = 1.662; % Moment of inertia [kg m^2]
  F = 0.01; % Friction factor
  p = 2; % Pole pairs
- 
  Lls =8e-4;
  Llr = 8e-4; 
  Lm=34.7e-3; % Magnetizing inductance [H]
@@ -18,19 +17,11 @@
  Lr = Lm+Llr; % Rotor inductance [H]
  Rs = 0.087; % Stator resistance [Ohm]
  Rr = 0.228; % Rotor resistance [Ohm]
- 
- % Lm = 0.2687; % Magnetizing inductance [H]
- % Ls = 0.2815; % Stator inductance [H]
- % Lr = 0.2815; % Rotor inductance [H]
- % Rs = 2.845; % Stator resistance [Ohm]
- % Rr = 2.413; % Rotor resistance [Ohm]
- 
  sf_nom = 0.9; % Nominal stator flux [Wb]
  T_nom = 229; % Nominal torque [Nm]
  % DC-link voltage [V]
  %V=460 
- % Vdc = 780; %if is necessary change Vdc
- Vdc = 540;
+ Vdc = 780; %if is necessary change Vdc
  % Auxiliary constants
  ts = Ls/Rs;
  tr = Lr/Rr;
