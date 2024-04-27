@@ -2,7 +2,7 @@
 % model = 'PTC_IM';
 model = 'ADRC_IM';
 % Parameters
-T_L = 250;
+T_L = 50;
 % T_L = 200;
 n_ref = 2772;
 % omega_r_ref = 2*pi*(n_ref/60);
