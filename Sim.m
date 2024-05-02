@@ -2,11 +2,14 @@
 % model = 'PTC_IM';
 model = 'ADRC_IM';
 % Parameters
-T_L = 50;
+% Torque limit
+TRQ_LIM = 1.5;
+T_L = T_nom*1.0;
 % T_L = 200;
 n_ref = 2772;
 % omega_r_ref = 2*pi*(n_ref/60);
 omega_r_ref = 180;
+
 
 % Define paremeters in model
 set_param([model,'/T_load'],'Gain',num2str(T_L))
